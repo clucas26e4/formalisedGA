@@ -13,11 +13,11 @@ module Syntax.Preproof.Create where
   open import Syntax.ListTerm.Properties
   open import Syntax.Seq
   open import Syntax.HSeq
+  open import Syntax.HSeq.Properties
   open import Syntax.HSeq.Ordered
   open import Syntax.HSeq.Complexity
   open import Syntax.HSeqList
   open import Syntax.Preproof
-  open import Syntax.Preproof.Leaf
   open import Syntax.Proof
 
   {- Semantic -}

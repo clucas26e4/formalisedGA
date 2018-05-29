@@ -11,6 +11,7 @@ module Syntax.Proof.Invertibility where
   open import Syntax.ListTerm.Properties
   open import Syntax.Seq
   open import Syntax.HSeq
+  open import Syntax.HSeq.Properties
   open import Syntax.Proof
   open import Syntax.Proof.Soundness
 

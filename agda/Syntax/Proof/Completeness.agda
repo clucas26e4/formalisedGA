@@ -19,7 +19,6 @@ module Syntax.Proof.Completeness where
   open import Syntax.Proof.Invertibility
   open import Syntax.HSeqList
   open import Syntax.Preproof
-  open import Syntax.Preproof.Leaf
   open import Syntax.Preproof.Create
   open import Syntax.StructuralPreproof
 
@@ -27,7 +26,7 @@ module Syntax.Proof.Completeness where
   open import Semantic.SemEquality
   open import Semantic.SemEquality.Properties
   open import Semantic.Interpretation
-  open import Semantic.LinearComb
+  open import Syntax.HSeq.LinearComb
 
   postulate
     condAtomicValid :

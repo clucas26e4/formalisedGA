@@ -1,4 +1,4 @@
-module Semantic.LinearComb where
+module Syntax.HSeq.LinearComb where
 
   {- STDLIB -}
   open import Nat
@@ -17,6 +17,7 @@ module Semantic.LinearComb where
   open import Syntax.Seq
   open import Syntax.Seq.Properties
   open import Syntax.HSeq
+  open import Syntax.HSeq.Properties
   open import Syntax.ListSeq
   open import Syntax.HSeqList
   open import Syntax.StructuralPreproof
